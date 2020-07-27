@@ -1,0 +1,13 @@
+package com.kml.TicTacToespringboot.domain;
+
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@EqualsAndHashCode
+public class Position {
+    int boardRow;
+    int boardColumn;
+}
